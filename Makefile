@@ -9,6 +9,7 @@ all: mains maind libmylib.so libmylib.a
 
 mains: $(OBJECTS_MAIN) libmylib.a 
 	$(CC) $(FLAGS) -o mains $(OBJECTS_MAIN) libmylib.a
+	
 maind: $(OBJECTS_MAIN)
 	$(CC) $(FLAGS) -o maind $(OBJECTS_MAIN) ./libmylib.so
 
