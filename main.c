@@ -8,8 +8,9 @@ int main(){
     printf("C - function 3\n");
     printf("D - exit");
 
+    
+    do {
     scanf("d" , &choice);
-    while (choice != 'D') {
     
     switch (choice) {
         case 'A':
@@ -28,9 +29,9 @@ int main(){
         default:
             printf("invlaid input");  
     }
-    scanf("d" , choice); 
+    
     }
-
+    while (choice != 'D')
 
     return 0;
 }
