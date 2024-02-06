@@ -33,15 +33,23 @@ void FloydWarshall(int graph[][N], int m){
 }
 
 
-void insertMatrix(int arr[N][N]){
+void insertMatrix(int arr[][N]){
 
     for (int i = 0; i < N; i++)
     {
         for (int j = 0; j<N; j++)
         {
-            //scanf("d" , &arr[i][j]);
-        }
-        
+            scanf("%d" , &arr[i][j]);
+        } 
     }
-    
+}
+
+int hasPath(int arr[][N],int i ,int j){
+    if (arr[i][j] != 0)
+    {
+       return arr[i][j];
+    }
+    else{
+        return 0;
+    }
 }
