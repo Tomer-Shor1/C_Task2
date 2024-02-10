@@ -5,8 +5,8 @@
 void FloydWarshall(int graph[][N], int m);
 void insertMatrix(int arr[][N]);
 int hasPath(int arr[][N],int i ,int j);
-int knapSack(int weights[], int values[], int selected_bool[]);
 int max(int a, int b);
-void getSelectedItems(char items[bagSize], int selected_bool[bagSize], char result[bagSize]);
-void printItems(char arr[bagSize]);
+void getSelectedItems(char items[], int selected_bool[], char result[]);
+void printItems(char arr[], int n);
+int knapsack( int wt[], int val[], int selected_bool[]);
 

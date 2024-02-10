@@ -24,4 +24,4 @@ myKnapsack.o: my_mat.h myKnapsack.c
 
 
 clean:
-	rm -f *.o *.a *.so progmains progmaind
+	rm -f *.o *.a *.so my_graph_main myKnapsack_main
