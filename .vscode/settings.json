@@ -1,9 +1,0 @@
-{
-    "makefile.launchConfigurations": [
-        {
-            "cwd": "/home/tomer/C_Task_2/C_Task2",
-            "binaryPath": "/home/tomer/C_Task_2/C_Task2/myKnapsack_main",
-            "binaryArgs": []
-        }
-    ]
-}
