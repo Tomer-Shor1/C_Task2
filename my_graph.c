@@ -9,10 +9,10 @@ int main(){
 
     
     do {
-    printf("A - function 1\n");
-    printf("B - function 2\n");
-    printf("C - function 3\n");
-    printf("D - exit\n");
+    // printf("A - function 1\n");
+    // printf("B - function 2\n");
+    // printf("C - function 3\n");
+    // printf("D - exit\n");
     scanf(" %c", &choice);
     switch (choice) {
         case 'A':
@@ -20,7 +20,7 @@ int main(){
             FloydWarshall(arr, N);
             break;  
         case 'B':
-            printf("enter two nodes\n");
+            // printf("enter two nodes\n");
             scanf("%d" , &i);
             scanf("%d" , &j);
             int asnwer = hasPath(arr, i ,j);
@@ -32,7 +32,7 @@ int main(){
             }
             break;
         case 'C':
-            printf("enter two nodes\n");
+            // printf("enter two nodes\n");
             scanf("%d" , &i);
             scanf("%d" , &j);
             int distance = hasPath(arr, i ,j);
@@ -40,7 +40,7 @@ int main(){
                 printf("-1");
             }
             else {
-                printf("The distance between the nodes is: %d\n" , distance);
+                printf("%d\n" , distance);
             }
             break;
         case 'D':

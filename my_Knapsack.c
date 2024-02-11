@@ -12,13 +12,13 @@ int main(){
     //get inputs from the user
 
     for (int i = 0; i<bagSize; i++) {
-        printf("Enter item's name: ");
+        // printf("Enter item's name: ");
         scanf(" %c", &items[i]);
 
-        printf("Enter weight: ");
+        // printf("Enter weight: ");
         scanf("%d", &weights[i]);
 
-        printf("Enter value: ");
+        // printf("Enter value: ");
         scanf("%d", &values[i]);
     }
     
@@ -35,7 +35,7 @@ int main(){
 
     //print items
     getSelectedItems(items, selected_bool, result);
-    printf("\n[");
+    printf("Selected items: \n[");
     int arrayLength = sizeof(result) / sizeof(result[0]); // Calculate the length of the array
 
     for(int i =  0; i < arrayLength; i++) {
