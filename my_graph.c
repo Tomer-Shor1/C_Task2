@@ -37,7 +37,7 @@ int main(){
             scanf("%d" , &j);
             int distance = hasPath(arr, i ,j);
             if (distance == 0) {
-                printf("-1");
+                printf("-1\n");
             }
             else {
                 printf("%d\n" , distance);
